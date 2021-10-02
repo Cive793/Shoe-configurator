@@ -1,0 +1,32 @@
+.colourButtons {
+  margin-top: 60px;
+  width: 600px;
+}
+
+g#Shadow_Image {
+  pointer-events: none;
+}
+
+.shoePart {
+  fill: white;
+}
+
+.shoeContainer {
+  margin-top: 100px;
+  max-width: 600px;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.shoePart:hover {
+  fill: rgb(214, 214, 214, 0.9);
+}
+
+.selectedShoePart {
+  stroke: rgb(0, 0, 0);
+  stroke-width: 5px;
+}
